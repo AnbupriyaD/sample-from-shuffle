@@ -1,0 +1,22 @@
+.dropdown:hover .dropdown-menu {
+  display: block
+  }
+.dropdown-menu {
+  display: none;
+  position: absolute;
+  background-color: #fff;
+  box-shadow: rgba(0,0,0,.1) 0 0 10px;
+  z-index: 1
+  }
+@keyframes scrollUp {
+            0% {
+                transform: translateY(100%);
+            }
+            100% {
+                transform: translateY(0);
+            }
+        }
+        .scroll-up {
+            animation: scrollUp 1s ease-out;
+        }
+
